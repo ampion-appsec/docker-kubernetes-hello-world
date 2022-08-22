@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: hello-world-deployment
   labels:
-        app: hello-world
+    app: hello-world
 spec:
   replicas: 1 
   template:
@@ -22,7 +22,7 @@ kind: Service
 metadata:
   name: hello-world-service
   labels:
-        app: hello-world
+    app: hello-world
 spec:
   selector:
     app: hello-world    
